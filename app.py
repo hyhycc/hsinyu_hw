@@ -12,9 +12,9 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET'])
 # 這個服務對應的方法
-def basic_url():
-    # return 來回傳使用者要收到的資料
-    return '<h1>Hello Python!</h1><p>網站架在Heroku上</p>'
+#def basic_url():
+#    # return 來回傳使用者要收到的資料
+#    return '<h1>Hello Python!</h1><p>網站架在Heroku上</p>'
 
 
 @app.route("/map/w01-6", methods=['GET'])
